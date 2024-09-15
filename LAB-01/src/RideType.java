@@ -1,9 +1,9 @@
-public abstract class RideType {
+public interface RideType {
     public abstract double calculateFare(double distance, String timeOfDay);
     public abstract int getCapacity();
 }
 
-class Carpool extends RideType{
+class Carpool implements RideType{
     @Override
     public double calculateFare(double distance, String timeOfDay){
         return 0;
@@ -16,7 +16,7 @@ class Carpool extends RideType{
 }
 
 
-class LuxuryRide extends RideType{
+class LuxuryRide implements RideType{
     @Override
     public double calculateFare(double distance, String timeOfDay){
         return 0;
@@ -28,7 +28,7 @@ class LuxuryRide extends RideType{
     }
 }
 
-class BikeRide extends RideType{
+class BikeRide implements RideType{
     @Override
     public double calculateFare(double distance, String timeOfDay){
         return 0;
