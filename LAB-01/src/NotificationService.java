@@ -1,24 +1,24 @@
 public interface NotificationService {
-    void sendNotification();
+    void sendNotification(String message);
 }
 
 class SMS implements NotificationService{
     @Override
-    public void sendNotification(){
+    public void sendNotification(String message){
         //
     }
 }
 
 class Email implements NotificationService{
     @Override
-    public void sendNotification(){
+    public void sendNotification(String message){
         //
     }
 }
 
 class InApp implements NotificationService{
     @Override
-    public void sendNotification(){
+    public void sendNotification(String message){
         //
     }
 }

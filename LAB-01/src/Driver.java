@@ -1,10 +1,15 @@
-public class Driver {
-    private int id;
-    private String name;
+public class Driver extends User{
     private String vehicleType;
-    private String location;
-    private double rating;
     private boolean availability;
+    private NotificationService notificationService;
+
+    public void setPreferredNotificationService(NotificationService notificationService)
+    {
+        this.notificationService = notificationService;
+    }
+    public NotificationService getPreferredNotificationService() {
+        return this.notificationService;
+    }
 
     public void acceptRide(Trip trip){
         //
