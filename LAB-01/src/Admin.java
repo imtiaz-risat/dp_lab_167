@@ -5,9 +5,7 @@ public class Admin {
 
     public void manageDriver(Driver driver){}
 
-    public void manageRider(Rider rider){
-        //
-    }
+    public void manageRider(Rider rider){}
 
     public void viewTripHistory(){}
 
