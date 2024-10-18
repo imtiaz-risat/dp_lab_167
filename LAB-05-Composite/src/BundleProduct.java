@@ -3,7 +3,7 @@ import java.util.List;
 
 // Make this an Abstract class and create Bundle Classes overrding this class
 
-public class BundleProduct implements Product {
+public abstract class BundleProduct implements Product {
     public List<Product> productList = new ArrayList<>();
     public String name;
     public Double discount;
