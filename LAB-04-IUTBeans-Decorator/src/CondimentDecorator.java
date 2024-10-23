@@ -1,4 +1,4 @@
-public abstract class CondimentDecorator{
+public abstract class CondimentDecorator implements Beverage{
     Beverage beverage;
     CondimentDecorator condimentDecorator;
 

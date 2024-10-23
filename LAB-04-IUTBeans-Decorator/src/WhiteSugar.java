@@ -14,5 +14,11 @@ public class WhiteSugar extends CondimentDecorator {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getDescription'");
     }
+
+    @Override
+    public double getCost() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getCost'");
+    }
     
 }

@@ -1,4 +1,4 @@
-public class Expresso extends Beverage{
+public class Expresso implements Beverage{
 
     @Override
     public String getDescription() {

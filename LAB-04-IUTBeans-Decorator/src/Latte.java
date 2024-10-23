@@ -1,4 +1,4 @@
-public class Cappuccino extends Beverage{
+public class Latte implements Beverage{
 
     @Override
     public double getCost() {
