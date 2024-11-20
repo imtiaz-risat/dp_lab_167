@@ -7,6 +7,7 @@ public class EPostalNotifierAdapter implements INotify {
         this.epn = epn;
     }
 
+    // Adapter Method
     @Override
     public void sendNotification(String id, String msg) {
         String address = ad.getAddress();

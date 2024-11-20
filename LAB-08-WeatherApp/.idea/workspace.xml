@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f3b156f-84bd-4e65-a150-0590ec0c5529" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../LAB-04-IUTBeans-Decorator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB-04-IUTBeans-Decorator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LAB-06-Adaptor/src/EPostalNotifierAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB-06-Adaptor/src/EPostalNotifierAdapter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2orskrYrwXx5Dph6e5XlzpL63Ze" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Study Materials/Sem 3.1/SWE 4502 - DP Lab/dp_lab_167/LAB-08-WeatherApp",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f3b156f-84bd-4e65-a150-0590ec0c5529" name="Changes" comment="" />
+      <created>1731639174241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731639174241</updated>
+    </task>
+    <servers />
+  </component>
+</project>
