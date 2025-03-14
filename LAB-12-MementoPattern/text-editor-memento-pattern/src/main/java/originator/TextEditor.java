@@ -1,6 +1,9 @@
 package originator;
 
 import java.util.List;
+
+import memento.EditorMemento;
+
 import java.util.ArrayList;
 
 public class TextEditor {
@@ -30,5 +33,15 @@ public class TextEditor {
         System.out.println("Content: " + content);
         System.out.println("Cursor Position: " + cursorPosition);
         System.out.println("Selections: " + selections);
+    }
+
+    public EditorMemento createMemento() {
+        return new EditorMemento(content, cursorPosition, selections);
+    }
+
+    public void restoreFromMemento(EditorMemento memento) {
+        this.content = memento.getContent();
+        this.cursorPosition = memento.getCursorPosition();
+        this.selections = memento.getSelections();
     }
 }
