@@ -13,4 +13,16 @@ public class EditorMemento implements Serializable {
         this.cursorPosition = cursorPosition;
         this.selections = selections;
     }
+
+    public String getContent() {
+        return content;
+    }
+
+    public int getCursorPosition() {
+        return cursorPosition;
+    }
+
+    public List<String> getSelections() {
+        return selections;
+    }
 }
