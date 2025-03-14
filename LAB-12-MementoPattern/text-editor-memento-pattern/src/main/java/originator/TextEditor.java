@@ -21,12 +21,24 @@ public class TextEditor {
         this.content = content;
     }
 
+    public String getContent() {
+        return content;
+    }
+
     public void setCursorPosition(int cursorPosition) {
         this.cursorPosition = cursorPosition;
     }
 
+    public int getCursorPosition() {
+        return cursorPosition;
+    }
+
     public void addSelection(String selection) {
         this.selections.add(selection);
+    }
+
+    public List<String> getSelections() {
+        return selections;
     }
 
     public void displayState() {
